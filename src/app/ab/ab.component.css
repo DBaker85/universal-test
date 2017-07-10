@@ -1,0 +1,16 @@
+:host{
+    border-radius:5px;
+    background-color: white;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+}
+
+.header{
+    padding: 10px;
+    border-bottom:1px solid wheat;
+}
+
+.body{
+    padding: 10px;
+}
