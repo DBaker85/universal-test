@@ -3,16 +3,11 @@ import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { ListComponent } from './list/list.component';
-import { AbbyComponent } from './ab/ab.component';
-import { DavidComponent } from './advert/advert.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent,
-    AbbyComponent,
-    ListComponent,
-    DavidComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
