@@ -5,5 +5,5 @@ import { Component, ViewEncapsulation } from '@angular/core';
   templateUrl: './app.component.html'
 })
 export class AppComponent {
-  title="JIT baby"
+  title="AOT compilation"
 }
