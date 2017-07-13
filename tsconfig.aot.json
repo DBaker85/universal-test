@@ -20,7 +20,8 @@
     "types": [
             // add node as an option
             "node"
-         ]
+         ],
+    "outDir": ".temp/unbundled-aot"
   },
   "exclude": [
     "node_modules"
@@ -36,9 +37,9 @@
     "src/app/app.module.ts",
     "src/app/main.ts"
   ],
-
+ 
   "angularCompilerOptions": {
-   "genDir": "public/aot",
+   "genDir": "src/aot",
    "skipMetadataEmit" : true
  }
 }

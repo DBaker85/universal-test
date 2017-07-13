@@ -2,3 +2,5 @@ node_modules
 public
 src/app/**/*.js
 src/app/**/*.map
+src/aot
+.temp
