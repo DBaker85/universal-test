@@ -3,5 +3,5 @@ import { platformBrowser } from '@angular/platform-browser';
 import './polyfills.ts'
 import { AppModuleNgFactory } from '../aot/src/app/app.module.ngfactory';
 
-
+enableProdMode();
 platformBrowser().bootstrapModuleFactory(AppModuleNgFactory);

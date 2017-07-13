@@ -1,0 +1,9 @@
+div{
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: burlywood;
+}

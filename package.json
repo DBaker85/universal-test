@@ -4,9 +4,8 @@
   "description": "a starterkit to try content as a service for sitecore",
   "main": "main.ts",
   "scripts": {
-    "test": "test",
-    "start": "webpack && webpack-dev-server --open",
-    "aot": "ngc -p tsconfig.aot.json && webpack --watch",
+    "start": "webpack --config webpack.jit.config.js --watch",
+    "aot": "ngc -p tsconfig.aot.json && webpack --config webpack.aot.config.js --watch",
     "build": "webpack",
     "ngc" :"ngc -p tsconfig.aot.json"
   },

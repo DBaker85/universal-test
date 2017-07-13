@@ -1,0 +1,16 @@
+.news-container{
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+h1{
+    width: 100%;
+}
+
+.text{
+    padding: 10px;
+    align-self: center;
+}

@@ -35,7 +35,7 @@
   },
    "files": [
     "src/app/app.module.ts",
-    "src/app/main.ts"
+    "src/app/main.aot.ts"
   ],
  
   "angularCompilerOptions": {

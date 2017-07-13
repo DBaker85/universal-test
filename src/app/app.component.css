@@ -58,14 +58,22 @@ body{
     padding: 10px;
 }
 
+h1{
+	padding:20px;
+}
+
 .container{
 	display: flex;	
+	width: 100%;
+
 }
 
 .container main{
-		flex-grow:4;
+		flex-grow:3;
+		padding:10px;
 }
 
 .container aside{
 		flex-grow:1;
+		padding: 10px
 }
