@@ -7,7 +7,8 @@
     "start": "webpack --config webpack.jit.config.js --watch",
     "aot": "ngc -p tsconfig.aot.json && webpack --config webpack.aot.config.js --watch",
     "build": "webpack",
-    "ngc" :"ngc -p tsconfig.aot.json"
+    "build:server": "ngc -p tsconfig.aot.json && webpack --config webpack.aot.config.js  && webpack --config webpack.ssr.config.js",
+    "ngc": "ngc -p tsconfig.aot.json"
   },
   "keywords": [
     "hackathon",
@@ -44,6 +45,7 @@
     "@angular/platform-browser": "^4.2.5",
     "@angular/platform-browser-dynamic": "^4.2.5",
     "@angular/platform-server": "^4.2.6",
+    "@nguniversal/express-engine": "^1.0.0-beta.2",
     "angular2-universal": "^2.1.0-rc.1",
     "body-parser": "^1.17.2",
     "core-js": "^2.4.1",

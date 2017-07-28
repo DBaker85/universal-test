@@ -20,7 +20,6 @@ import { HeaderComponent } from './header/header.component';
     BrowserModule,
     HttpModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: []
 })
 export class AppModule { }

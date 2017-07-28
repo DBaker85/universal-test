@@ -12,7 +12,7 @@ var publicScripts = path.join(__dirname,'/public/scripts');
 
 module.exports = {
   entry: {
-    main:'./src/app/main.aot.ts'
+    main:'./src/app/main.browser.ts'
   },
   output: {
     filename: '[name].[hash].bundle.js',
