@@ -15,13 +15,19 @@ import {Component} from '@angular/core';
 export class NewsComponent{
     public newslist:Array<{}> = [
         {
-            text: 'Spicy jalapeno bacon ipsum dolor amet ut est corned beef, pastrami voluptate short loin elit pork chop prosciutto alcatra pig capicola swine. Pork spare ribs id incididunt tail filet mignon. Id nostrud doner leberkas corned beef turducken short loin officia cupim dolore cow exercitation. T-bone elit est capicola turkey jerky sausage ut ham kielbasa ground round ipsum beef ribs pork chop do. Nisi boudin t-bone swine veniam ham jowl dolor voluptate est occaecat qui frankfurter pancetta. Sint ham spare ribs leberkas ad non porchetta, veniam meatloaf id doner fugiat.'
+            user: 'Lord Bigley the 3rd',
+            text: '"David," he said abruptly, "do you perceive anything unusual about the horizon?" As I looked I began to appreciate the reason for the strangeness of the landscape that had haunted me from the first with an illusive suggestion of the bizarre and unnatural—THERE WAS NO HORIZON! As far as the eye could reach out the sea continued and upon its bosom floated tiny islands, those in the distance reduced to mere specks; but ever beyond them was the sea, until the impression became quite real that one was LOOKING UP at the most distant point that the eyes could',
+            avatar: 'bigley3'
         },
         {
-            text: 'Esse shoulder drumstick tenderloin ut ad landjaeger ea. Aute et rump fatback pastrami cupim. Adipisicing hamburger ham qui laborum burgdoggen sunt meatball venison. Cupidatat dolore turducken tail adipisicing, chicken ut meatloaf duis boudin quis velit turkey.'
+            user:'Cornelia Virginia Gridley',
+            text: 'Esse shoulder drumstick tenderloin ut ad landjaeger ea. Aute et rump fatback pastrami cupim. Adipisicing hamburger ham qui laborum burgdoggen sunt meatball venison. Cupidatat dolore turducken tail adipisicing, chicken ut meatloaf duis boudin quis velit turkey.',
+            avatar: 'cornelia'
         },
         {
-            text: 'Bresaola shankle pariatur jowl ham hock commodo, dolor in quis incididunt ribeye salami sed. Anim biltong labore capicola. In jowl ea tail sunt picanha laboris lorem, velit jerky pancetta kevin adipisicing pastrami tenderloin. Officia ground round pig eiusmod fatback shank. Cow pig meatloaf chuck pastrami sed landjaeger elit andouille pariatur. Strip steak chicken ham frankfurter esse magna salami, dolore velit et irure fatback anim tri-tip nostrud. Chicken leberkas alcatra bresaola ut, est spare ribs venison ham salami corned beef.'
+            user: 'Thomasina Temperance Porter',
+            text: 'Bresaola shankle pariatur jowl ham hock commodo, dolor in quis incididunt ribeye salami sed. Anim biltong labore capicola. In jowl ea tail sunt picanha laboris lorem, velit jerky pancetta kevin adipisicing pastrami tenderloin. Officia ground round pig eiusmod fatback shank. Cow pig meatloaf chuck pastrami sed landjaeger elit andouille pariatur. Strip steak chicken ham frankfurter esse magna salami, dolore velit et irure fatback anim tri-tip nostrud. Chicken leberkas alcatra bresaola ut, est spare ribs venison ham salami corned beef.',
+            avatar: 'thomasina'
         }
     ]
 }
