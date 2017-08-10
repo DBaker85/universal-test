@@ -23,17 +23,18 @@ thead > tr{
 
 td{
     padding: 5px;
+    min-height: 38px;
 }
 
-tr{
-    border-bottom: 1px solid #ccc;
-}
-tr:last-child{
-    border-bottom: none;
-}
+
 
 .small{
     font-size: .6em;
+}
+
+.online,
+.offline { 
+    vertical-align: middle;
 }
 
 .online::after,
