@@ -1,0 +1,32 @@
+.news-container{
+    display: flex;
+    background-color: #fff;
+    border: 2px solid rgba(184, 134, 11,0.5);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 0px 8px 13px -6px rgba(0,0,0,0.58);
+}
+
+h1{
+    width: 100%;
+}
+
+img{
+    margin-right: 20px;
+}
+
+.text{
+    padding: 10px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.author{
+    font-size: 14px;
+    font-style: italic;
+    color: #AAA;
+    margin-left: auto;
+    padding: 10px 5px;
+}

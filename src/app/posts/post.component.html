@@ -1,0 +1,11 @@
+<div *ngFor="let post of postlist" class="news-container">
+    <img [alt]="'Avatar for '+post.user" [src]="'images/avatars/'+post.avatar+'.jpg'">
+    <div class="text">
+        <p>
+            {{post.body}}
+        </p>
+        <p class="author">
+            - {{post.user}}
+        </p>
+    </div>    
+</div>

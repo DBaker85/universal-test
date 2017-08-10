@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { SearchComponent } from './search/search.component';
 import { OnlineListComponent } from './online-list/onlineList.component';
-import { NewsComponent } from './news/news.component';
+import { PostComponent } from './posts/post.component';
 import { HeaderComponent } from './header/header.component';
 
 @NgModule({
@@ -13,7 +13,7 @@ import { HeaderComponent } from './header/header.component';
     AppComponent,
     SearchComponent,
     OnlineListComponent,
-    NewsComponent,
+    PostComponent,
     HeaderComponent
   ],
   imports: [
