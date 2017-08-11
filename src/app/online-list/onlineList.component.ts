@@ -8,27 +8,27 @@ import {Component} from '@angular/core'
 export class OnlineListComponent{
     public users: Array<{}> = [
         {
-            name: 'David',
+            name: 'Lord Bigley',
             online: true,
             id: 10
         },
         {
-            name: 'Abby',
+            name: 'Cornelia',
             online: false,
             id: 12
         },
         {
-            name: 'Stef',
+            name: 'Thomasina',
             online: false,
             id: 54
         },
         {
-            name: 'Hilmi',
+            name: 'Sterling',
             online: true,
             id: 60
         },
         {
-            name: 'Violetta',
+            name: 'Lysander',
             online: true,
             id: 24
         }

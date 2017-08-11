@@ -1,0 +1,9 @@
+:host{
+    display: block;
+    width: 100%;
+}
+
+.navigation {
+    display: inline-flex;
+    width: 100%;
+}
