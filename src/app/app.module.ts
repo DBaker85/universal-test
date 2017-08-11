@@ -7,6 +7,7 @@ import { SearchComponent } from './search/search.component';
 import { OnlineListComponent } from './online-list/onlineList.component';
 import { PostComponent } from './posts/post.component';
 import { HeaderComponent } from './header/header.component';
+import { CommentsComponent } from './comments/comments.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HeaderComponent } from './header/header.component';
     SearchComponent,
     OnlineListComponent,
     PostComponent,
-    HeaderComponent
+    HeaderComponent,
+    CommentsComponent
   ],
   imports: [
     BrowserModule,

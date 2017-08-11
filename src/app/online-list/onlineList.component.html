@@ -1,16 +1,6 @@
-<table class="table">
-  <thead>
-      <tr>
-      <td>ID</td>
-      <td>Name</td>
-      <td>Status</td>
-    </tr>
-  </thead>
-  <tbody>
-    <tr *ngFor="let user of users">
-      <td class="small">{{user.id}}</td>
-      <td>{{user.name}}</td>
-      <td [class]="user.online?'online':'offline'"></td>
-    </tr>
-  </tbody>
-</table>
+<div class="table">
+  <div class="user-list" *ngFor="let user of users">
+    <p [class]="user.online?'online':'offline'">{{user.name}}</p>
+    <comments [comments]="user.comments"></comments>
+  </div>
+</div>
