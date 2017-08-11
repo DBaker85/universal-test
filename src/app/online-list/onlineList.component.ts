@@ -10,7 +10,21 @@ export class OnlineListComponent{
         {
             name: 'Lord Bigley',
             online: true,
-            id: 10
+            id: 10,
+            comments:[
+                {
+                    comment: "Spiffing comment sir",
+                    rated: true
+                },
+                {
+                    comment: "Taly ho!",
+                    rated: false
+                },
+                {
+                    comment: "I disagree my good sir!",
+                    rated: false
+                },
+            ]
         },
         {
             name: 'Cornelia',
@@ -20,7 +34,18 @@ export class OnlineListComponent{
         {
             name: 'Thomasina',
             online: false,
-            id: 54
+            id: 54,
+             comments:[
+                {
+                    comment: "You are a blithering idiot my good sir",
+                    rated: false
+                },
+                {
+                    comment: "Nary a sillier response have I read",
+                    rated: true
+                }
+            ]
+            
         },
         {
             name: 'Sterling',
@@ -30,7 +55,13 @@ export class OnlineListComponent{
         {
             name: 'Lysander',
             online: true,
-            id: 24
+            id: 24,
+             comments:[
+                {
+                    comment: "I acknowledge defeat",
+                    rated: false
+                }
+            ]
         }
     ]
 }
