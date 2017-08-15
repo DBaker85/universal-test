@@ -4,7 +4,7 @@ import {Component, Input} from '@angular/core';
 @Component({
     selector:'header',
     template: `
-        <div>
+        <div routerLink="/" routerLinkActive="active">
             <h1>{{title}}</h1>
         </div>
     `,
