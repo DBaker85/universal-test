@@ -24,7 +24,7 @@ app.set('views', 'public');
 app.use('/', express.static('public', {index: false}));
 
 
-app.get('/', function (req, res) {
+app.get('*', function (req, res) {
   res.render('../public/index.html',
   {
     req,

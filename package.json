@@ -48,6 +48,7 @@
     "@angular/platform-browser-dynamic": "^4.2.5",
     "@angular/platform-server": "^4.2.6",
     "@nguniversal/express-engine": "^1.0.0-beta.2",
+    "@angular/router": "^4.3.4",
     "angular2-universal": "^2.1.0-rc.1",
     "body-parser": "^1.17.2",
     "core-js": "^2.4.1",
